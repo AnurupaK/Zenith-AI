@@ -1,4 +1,4 @@
-#🤖 Zenith-AI - Advanced Chatbot with Voice & Text Functionalities
+## 🤖 Zenith-AI - Advanced Chatbot with Voice & Text Functionalities
 
 Welcome to the **Advanced Chatbot** project! This cutting-edge chatbot utilizes both **text** and **voice** functionalities, powered by the Gemini model for text processing and Whisper from the Groq AI platform for audio interactions.
 
