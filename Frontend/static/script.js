@@ -27,7 +27,8 @@ document.addEventListener('DOMContentLoaded', async function () {
                             let choice_wall = wall.innerHTML;
                             // screen.style.backgroundImage = `url("static/images/${choice_wall}.jpeg")`;
                             // screen.style.backgroundImage = `url("static/${choice_wall}.jpeg")`;
-                            screen.style.backgroundImage = url(`${choice_wall}.jpeg`);
+                            screen.style.backgroundImage = `url("static/${choice_wall}.jpeg")`;
+
                             wall_options.style.display = "none";
                             wallpaper.style.transform = '';
                         });
