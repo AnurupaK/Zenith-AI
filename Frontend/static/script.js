@@ -25,7 +25,8 @@ document.addEventListener('DOMContentLoaded', async function () {
                         wall.addEventListener('click', async function () {
                             console.log(wall.innerHTML);
                             let choice_wall = wall.innerHTML;
-                            screen.style.backgroundImage = `url("images/${choice_wall}.jpeg")`;
+                            // screen.style.backgroundImage = `url("images/${choice_wall}.jpeg")`;
+                             screen.style.backgroundImage = `url("static/${choice_wall}.jpeg")`;
                             wall_options.style.display = "none";
                             wallpaper.style.transform = '';
                         });
