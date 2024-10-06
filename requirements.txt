@@ -1,0 +1,5 @@
+flask
+wave
+groq
+python-dotenv
+google-generativeai
